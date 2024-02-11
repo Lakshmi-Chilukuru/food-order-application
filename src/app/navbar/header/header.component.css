@@ -1,0 +1,49 @@
+.container{
+    margin: 0px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo,.menus ul{
+    margin: 0px;
+}
+.logo{
+    font-weight: 600;
+}
+.menus ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 16px;
+    display: inline-block;
+    color:#FBEAFF;
+}
+a:hover{
+    background-color: #FEFEDF;
+    color:#2A2A28;
+    transition: 0.4s all ease-out;
+}
+.menu_container{
+    position: relative;
+}
+.menu_container:hover .sub_menu{
+    display: block;
+}
+.sub_menu{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: transparent
+}
+.sub_menu a{
+    min-width:90px;
+    width: 100%;
+}
+
