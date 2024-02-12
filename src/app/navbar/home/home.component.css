@@ -1,0 +1,62 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    
+    
+}
+li a{
+    height:350px;
+    width: 300px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+li a:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
+.images{
+    height: 200px;
+    width: 300px;  
+}
+.food_name{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 12px 6px;
+}
+.stars,.origins{
+    margin: 6px 12px;
+}
+.origins{
+    display: flex;
+    gap:4px;
+    
+}
+.origin{
+    background-color: antiquewhite;
+    color: gray;
+    padding: 4px;
+    border-radius: 4px;
+}
+.food_time{
+    position: relative;
+    text-align: right;
+    bottom: 30px;
+    margin-right: 12px;
+}
+.price{
+    position: relative;
+    padding: 0 12px;
+    bottom: 10px;
+}
