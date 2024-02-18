@@ -1,0 +1,17 @@
+.tags{
+    display: flex;
+    justify-content: center;
+}
+.tags a{
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(118, 108, 98);
+    opacity:0.8;
+    border-radius: 50px;
+    margin:12px 8px;
+    color:#060404;
+}
+.tags a:hover{
+    opacity:1;
+    cursor: pointer;
+}

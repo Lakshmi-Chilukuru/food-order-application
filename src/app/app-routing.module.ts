@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './navbar/home/home.component';
+import { HomeComponent } from './navbar/pages/home/home.component';
+import { TagComponent } from './navbar/pages/tag/tag.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'home',component:HomeComponent},
-  {path:'search/:searchTerm', component:HomeComponent}
+  {path:'search/:searchTerm', component:HomeComponent},
+  {path:'tag/:tag',component:HomeComponent}
 ];
 
 @NgModule({

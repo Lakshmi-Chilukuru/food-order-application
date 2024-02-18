@@ -1,11 +1,12 @@
 import { Food } from "./app/shared/model/food";
+import { Tags } from "./app/shared/model/tag";
 
 export const sampleFoods:Food[]=[
     {
         id:'1',
         name:'Panipuri',
         price:59,
-        tag:['Fastfood','Panipuri'],
+        tags:['Fastfood','Panipuri'],
         favourite:false,
         stars:4.3,
         imageUrl:'assets/images/img1.jpeg',
@@ -16,7 +17,7 @@ export const sampleFoods:Food[]=[
         id:'2',
         name:'vadapav',
         price:29,
-        tag:['Fastfood','street food'],
+        tags:['Fastfood','street food'],
         favourite:false,
         stars:4,
         imageUrl:'assets/images/img2.jpeg',
@@ -27,7 +28,7 @@ export const sampleFoods:Food[]=[
         id:'3',
         name:'Bhelpuri',
         price:49,
-        tag:['Fastfood','Pizza'],
+        tags:['Fastfood','Pizza'],
         favourite:false,
         stars:4,
         imageUrl:'assets/images/img3.jpeg',
@@ -38,7 +39,7 @@ export const sampleFoods:Food[]=[
         id:'4',
         name:'Batura',
         price:119,
-        tag:['Fastfood','Batura'],
+        tags:['Fastfood','Batura'],
         favourite:false,
         stars:4.3,
         imageUrl:'assets/images/img4.jpeg',
@@ -49,7 +50,7 @@ export const sampleFoods:Food[]=[
         id:'5',
         name:'Idli',
         price:119,
-        tag:['healthyfood','homefood'],
+        tags:['healthyfood','homefood'],
         favourite:true,
         stars:4.8,
         imageUrl:'assets/images/img5.jpeg',
@@ -60,7 +61,7 @@ export const sampleFoods:Food[]=[
         id:'6',
         name:'Bajji',
         price:119,
-        tag:['Bajji','Snacks'],
+        tags:['Bajji','Snacks'],
         favourite:true,
         stars:4.5,
         imageUrl:'assets/images/img6.jpeg',
@@ -71,7 +72,7 @@ export const sampleFoods:Food[]=[
         id:'7',
         name:'Samosa',
         price:19,
-        tag:['Sancks','Teatime'],
+        tags:['Sancks','Teatime'],
         favourite:false,
         stars:4,
         imageUrl:'assets/images/img7.jpeg',
@@ -82,11 +83,20 @@ export const sampleFoods:Food[]=[
         id:'8',
         name:'Pizza',
         price:119,
-        tag:['Fastfood','Pizza'],
+        tags:['Fastfood','Pizza'],
         favourite:false,
         stars:4.3,
         imageUrl:'assets/images/img8.jpeg',
         origins:['italy','american'],
         cookTime:'10-30',     
     }
+]
+
+export const sample_tags:Tags[]=[
+    {name:'All',count:8},
+    {name:'Fastfood',count:4},
+    {name:'Snacks',count:3},
+    {name:'Pizza',count:1},
+    {name:'Panipuri',count:2},
+    {name:'healthyfood',count:1}
 ]
