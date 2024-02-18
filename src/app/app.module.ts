@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './navbar/header/header.component';
 import { HomeComponent } from './navbar/home/home.component';
+import { SearchComponent } from './navbar/search/search.component';
 // import { RatingModule } from 'ng-starrating';
 
 
@@ -12,7 +13,8 @@ import { HomeComponent } from './navbar/home/home.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

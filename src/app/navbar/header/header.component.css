@@ -1,6 +1,6 @@
 .container{
     margin: 0px;
-   
+   border-bottom:1px solid #0c0c0c;
 }
 nav{
     display: flex;
