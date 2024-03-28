@@ -7,6 +7,7 @@ import { HeaderComponent } from './navbar/header/header.component';
 import { HomeComponent } from './navbar/pages/home/home.component';
 import { SearchComponent } from './navbar/pages/search/search.component';
 import { TagComponent } from './navbar/pages/tag/tag.component';
+import { FoodPageComponent } from './navbar/pages/food-page/food-page.component';
 // import { RatingModule } from 'ng-starrating';
 
 
@@ -16,7 +17,8 @@ import { TagComponent } from './navbar/pages/tag/tag.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    TagComponent
+    TagComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,
